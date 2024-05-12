@@ -106,3 +106,82 @@ body {
 .button:hover {
     background: rgb(111, 110, 110);
 }
+
+.LugaresDestacados h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: crimson;
+}
+
+.contenedor-tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjeta {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+
+    color: #000;
+}
+
+.tarjeta:hover {
+    box-shadow: 0px 0px 10px black;
+
+    .perfil p {
+        border-bottom: 3px solid #ff7f4d;
+    }
+}
+
+.perfil{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img {
+    background: #f8f8f8;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.perfil p {
+  color: #000;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.descripcion {
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.descripcion a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+
+.descripcion a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
