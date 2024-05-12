@@ -1,0 +1,104 @@
+@import 'header.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/mike-swigunski-k9Zeq6EH_bk-unsplash.jpg');
+
+}
+
+
+.busqueda {
+    width: 900px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+
+.categoria {
+    flex: 2 2 0;
+}
+
+.categoria1 {
+    flex: 1 1 0;
+}
+
+.categoria2 {
+    flex: 2 2 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.categoria:hover, .categoria1:hover, .categoria2:hover{
+    text-decoration: underline;
+}
+
+
+.categoria2 img {
+    background: #000;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: bold;    
+}
+
+.subtitulo {
+    font-size: 12px;
+}
+
+.contenido {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.contenido h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: fit-content;
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}

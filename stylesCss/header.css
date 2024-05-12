@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.logo p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.elemento, .login a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 15px;
+
+}
+
+.login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login a img {
+    width: 40px;
+    height: 40px;
+    background: lightgrey;
+    border-radius: 50%;
+}
+
+.elemento:hover, .login a:hover {
+    color: lightslategray;
+}
+
+
+
