@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url('../images/mike-swigunski-k9Zeq6EH_bk-unsplash.jpg');
-
 }
 
 
@@ -124,16 +123,16 @@ body {
 }
 
 .tarjeta {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     border-radius: 20px;
     width: fit-content;
     padding: 10px 20px;
-
-    color: #000;
+    color: #fff;
 }
+
 
 .tarjeta:hover {
     box-shadow: 0px 0px 10px black;
@@ -171,12 +170,13 @@ body {
     height: auto;
     text-align: justify;
     font-size: 18px;
+    color: #000;
 }
 
 .descripcion a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-weight: bold;
     margin: 0 20px;
     padding-bottom: 10px;
